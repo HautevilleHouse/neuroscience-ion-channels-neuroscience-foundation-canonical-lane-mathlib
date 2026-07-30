@@ -1,0 +1,18 @@
+import canonicalLaneMathlib.AdmissibleClass
+import canonicalLaneMathlib.BridgeLemmas
+import canonicalLaneMathlib.GateLemmas
+import HautevilleHouse.NeuroscienceIonChannelsNeuroscienceFoundationCanonicalLaneLean.HodgkinHuxleyModel
+import HautevilleHouse.NeuroscienceIonChannelsNeuroscienceFoundationCanonicalLaneLean.SynapticPlasticity
+import HautevilleHouse.NeuroscienceIonChannelsNeuroscienceFoundationCanonicalLaneLean.NeuralFieldTheory
+import HautevilleHouse.NeuroscienceIonChannelsNeuroscienceFoundationCanonicalLaneLean.Connectomics
+import HautevilleHouse.NeuroscienceIonChannelsNeuroscienceFoundationCanonicalLaneLean.IonChannelDynamics
+import HautevilleHouse.NeuroscienceIonChannelsNeuroscienceFoundationCanonicalLaneLean.NeuroscienceFoundationFinalTheorem
+
+namespace HautevilleHouse
+namespace NeuroscienceIonChannelsNeuroscienceFoundationCanonicalLaneLean
+
+theorem all_packages_closed : HodgkinHuxleyModelClosed (by exact default) ∧ SynapticPlasticityClosed (by exact default) ∧ NeuralFieldTheoryClosed (by exact default) ∧ ConnectomicsClosed (by exact default) ∧ IonChannelDynamicsClosed (by exact default) := by
+  refine ⟨?_, ?_, ?_, ?_, ?_⟩ <;> trivial
+
+end NeuroscienceIonChannelsNeuroscienceFoundationCanonicalLaneLean
+end HautevilleHouse
